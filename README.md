@@ -60,7 +60,7 @@ public can($action)
 Checks wether the action is allowed in this request cycle, based on the user permissions. Can also be helpful in templates, e.g. to hide action buttons.
 
 
-##### can
+##### notAllowed
 ```php
 public notAllowed($flash = false)
 ```
