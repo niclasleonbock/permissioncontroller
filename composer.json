@@ -1,0 +1,17 @@
+{
+    "name": "niclasleonbock/permissioncontroller",
+    "description": "Extended permissions for backend controllers in OctoberCMS.",
+    "keywords": ["permission", "october", "cms", "backend"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niclas Leon Bock",
+            "email": "niclasleon@bock.rocks",
+            "homepage": "https://bock.rocks/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Bock\\PermissionController": ""}
+    }
+}
