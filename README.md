@@ -1,6 +1,8 @@
 # Permission Controller
 This library adds extended permission support to controllers in OctoberCMS. It is built on top of the default `$requiredPermissions` property but extends it to be more powerful by adding the possibilty to define different permissions for different actions.
 
+> **Hint:** Due to the way Controller Behaviors work this is a class (and not a Behavior) you need to extend your controllers from.
+
 ### Example
 This will check for the required permissions depending on the action.
 ```php
@@ -70,6 +72,4 @@ Either as flash message (if `$flash` is set to `true`) or an error page.
 
 
 ### Bugs
-Create an issue.
-
-> **Hint:** This is no Controller Behavior, it's a whole new class that you need to extend from.
+Create a pull request or issue.
